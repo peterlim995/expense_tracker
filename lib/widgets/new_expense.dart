@@ -92,6 +92,9 @@ class _NewExpenseState extends State<NewExpense> {
         category: _selectedCategory,
       ),
     );
+
+  print("__selectedCategory:$_selectedCategory");
+
     Navigator.pop(context);
   }
 
@@ -169,6 +172,7 @@ class _NewExpenseState extends State<NewExpense> {
                         }
                         setState(() {
                           _selectedCategory = value;
+                          // print("__selectedCategory:$_selectedCategory");
                         });
                       },
                     ),

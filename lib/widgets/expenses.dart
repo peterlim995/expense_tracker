@@ -68,7 +68,7 @@ class _ExpensesState extends State<Expenses> {
   }
 
   @override
-  Widget build(content) {
+  Widget build(context) {
     final width = MediaQuery.of(context).size.width;
     print(MediaQuery.of(context).size.height);
 
